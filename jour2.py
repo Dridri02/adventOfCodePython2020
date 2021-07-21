@@ -19,13 +19,8 @@ def part1(path):
         max = int(ligneSplit[1].split()[0])
         lettre = ligneSplit[1].split()[1].strip(":")
         pwd = ligneSplit[1].split(":")[1].strip()
-        print(min)
-        print(max)
-        print(lettre)
-        print(pwd)
         if(compterOccurence(lettre,pwd)<= max and compterOccurence(lettre,pwd) >= min):
-            compteur = compteur + 1 
-        
+            compteur = compteur + 1      
     return compteur
 
 def part2(path):
