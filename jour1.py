@@ -1,4 +1,4 @@
-import os
+# import os
 
 def part1(path):
     file=open(path)
@@ -22,6 +22,6 @@ def part2(path):
                 if nombrei+nombrej+nombrek == 2020:
                     return nombrei*nombrej*nombrek
 
-print(os.listdir())
-print(part1("/home/coder/adventOfCodePython2020-1/dataJour1.txt"))
-print(part2("/home/coder/adventOfCodePython2020-1/dataJour1.txt"))
+# print(os.listdir())
+# print(part1("/home/coder/adventOfCodePython2020/dataJour1.txt"))
+# print(part2("/home/coder/adventOfCodePython2020/dataJour1.txt"))
